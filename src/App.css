@@ -1,0 +1,257 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+*{
+  margin: 0px;
+  padding: 0px;
+     font-family: "Poiret One", sans-serif;
+}
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color:  rgb(224, 195, 141);
+  box-shadow: 4px 3px 5px 5px ;
+  backdrop-filter: blur(78px);
+}
+img{
+  width: 200px;
+  height: 60px;
+}
+ nav{
+margin-top: 20px;
+display: flex;
+flex-direction: row;
+gap: 30px;
+
+
+}
+nav .menu{
+  gap: 20px;
+  color: rgb(103, 39, 8);
+  text-decoration: none;
+}
+nav .menu:hover{
+  color: white;
+
+}
+.fa-solid{
+
+color: rgb(103, 39, 8);
+}
+.fa-solid:hover{
+  color: white;
+
+}
+.hero{
+   background-image:  url(https://i.pinimg.com/1200x/64/60/7e/64607e535659a1ebfd7b2bc0e9b315a2.jpg)   ;
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  background-attachment: fixed;
+ margin-top: 10px;
+ padding-top: 50px;
+}
+.hero h2{
+  color: white;
+  font-size: 70px;
+  text-align: center;
+}
+.hero p{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+
+}
+.hero button{
+   color: white;
+  background-color:  rgb(103, 39, 8);
+  font-size: small;
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+ 
+ 
+}
+.hero button:hover{
+   color: rgb(255, 255, 255);
+  background-color: transparent;
+  font-size: small;
+}
+h1{
+  text-align: center;
+  margin-top: 20px;
+  
+color: rgb(103, 39, 8);
+}
+h1:hover{
+  text-decoration: underline;
+  
+}
+.pro-img{
+  width: 180px;
+  height: 200px;
+  border-radius: 10px;
+  position: fill;
+}
+#Products{
+  display: grid;
+  grid-template-columns: repeat(4,200px);
+  grid-template-rows: repeat(2,150);
+  grid-template-areas: 'card1 card2 card3 card4'
+                        'card5 card6 card7 card8';
+ justify-content: center;
+ margin-top: 20px;
+ gap: 50px;
+
+}
+.card1{
+  grid-area: card1;
+}
+.card2{
+  grid-area: card2;
+}
+.card3{
+  grid-area: card3;
+}
+.card4{
+  grid-area: card4;
+}
+.card5{
+  grid-area: card5;
+}
+.card6{
+  grid-area: card6;
+}
+.card7{
+  grid-area: card7;
+}
+.card8{
+  grid-area: card8;
+}
+#card{
+
+  box-shadow: 2px 3px 4px;
+  padding: 10px 10px;
+  color: rgb(103, 39, 8);
+  border-color: solid rgb(103, 39, 8);
+  
+}
+
+#card button{
+  color: white;
+  background-color:  rgb(103, 39, 8);
+  font-size: small;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  
+}
+#card button:hover{
+  color: rgb(103, 39, 8);
+  background-color: transparent;
+  font-size: small;
+}
+h3{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.about{
+  background-image: url(https://i.pinimg.com/1200x/ef/34/59/ef3459c13f616131c571225ca7ff8919.jpg) ;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  background-attachment: fixed;
+  margin-top: 50px;
+  margin-bottom: 50px;
+ 
+}
+.about p{
+  width: 800px;
+  font-size: 25px;
+margin-left: 300px;
+padding-top: 100px;
+color: white;
+
+}
+.about button{
+    color: white;
+  background-color:  rgb(103, 39, 8);
+  font-size: small;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+   margin-left: 300px;
+   margin-top: 20px;
+}
+.about button:hover{
+  color: rgb(103, 39, 8);
+  background-color: transparent;
+  font-size: small;
+ 
+}
+.foot{
+  display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+
+}
+.foot ul li{
+  list-style-type: none;
+  margin-bottom: 10px;
+ 
+}
+h4{
+  margin-bottom: 10px;
+ color: rgb(103, 39, 8);
+}
+h4:hover{
+   text-decoration: underline;
+}
+footer{
+  background-color:  rgb(224, 195, 141);
+  text-align: center;
+  margin-top: 20px;
+  height: 30px;
+  padding-top: 10px;
+}
