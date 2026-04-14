@@ -24,7 +24,7 @@ export default function Home() {
       <p>Slow-Crafted Ceramics made for Soulful Homes <br /> <br /> <button>Explore our Collection</button></p>
       
     </div>
-  
+     <Products />
     </>
   )
 }

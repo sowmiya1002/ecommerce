@@ -19,6 +19,7 @@ export default function Products() {
        <i class="fa-solid fa-user"></i>   
       </nav>
       </div>
+   
     <h1>Products</h1>
     <div id='Products'>
     <div id='card' className='card1'>
