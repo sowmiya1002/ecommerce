@@ -6,24 +6,8 @@ export default function About() {
   return (<>
 
 
-  {/* <div id='navbar'>
-     <img src='https://clayandglaze.in/cdn/shop/files/clayandglaze2025-min.png?crop=center&height=169&v=1748971139&width=527' alt="" />
-     <nav>
-     <Link className='menu' to="/">Home</Link>
-           <Link className='menu' to="/Products">Products</Link>
-            <Link className='menu' to="/About">About</Link>
-           <Link className='menu' to="/Contact">Contact</Link>
-     
-     </nav>
-     <nav>
-      <i class="fa-solid fa-magnifying-glass"></i>
-      <i class="fa-solid fa-cart-shopping"></i>
-      <i class="fa-solid fa-user"></i>   
-     </nav>
-     </div> */}
 
-<Navbar/>
-
+    <h1>About Us</h1>
     <div className='about'>
   
   <p>We create handmade clay products that blend tradition, art, and everyday usability.

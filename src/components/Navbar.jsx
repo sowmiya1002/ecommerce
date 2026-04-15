@@ -19,6 +19,7 @@ export default function Navbar() {
       <nav>
         <i className="fa-solid fa-magnifying-glass"></i>
         <i className="fa-solid fa-cart-shopping"></i>
+        {/* <i className="fa-solid fa-user"></i>  */}
         <i className="fa-solid fa-user"></i>
       </nav>
     </div>

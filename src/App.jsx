@@ -8,7 +8,7 @@ import Home from "./components/Home";
 import Products from "./components/Products";
 import About from "./components/About";
 import Contact from "./components/Contact";
-
+import Navbar from "./components/Navbar";
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home/>}></Route>
       <Route path="/products" element={<Products />} />
