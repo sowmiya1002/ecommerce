@@ -1,10 +1,12 @@
 import React from 'react'
 import About from './About'
 import { Link } from 'react-router-dom'
+import Navbar from './Navbar'
+import Footer from './Footer'
 export default function Products() {
   return (
     <>
-   <div id='navbar'>
+   {/* <div id='navbar'>
       <img src='https://clayandglaze.in/cdn/shop/files/clayandglaze2025-min.png?crop=center&height=169&v=1748971139&width=527' alt="" />
       <nav>
       <Link className='menu' to="/">Home</Link>
@@ -18,7 +20,8 @@ export default function Products() {
        <i class="fa-solid fa-cart-shopping"></i>
        <i class="fa-solid fa-user"></i>   
       </nav>
-      </div>
+      </div> */}
+      <Navbar/>
    
     <h1>Products</h1>
     <div id='Products'>
@@ -71,7 +74,9 @@ export default function Products() {
     <button>Add to cart</button>
     </div>
     </div>
-    <About/>
+ 
+ <About/>
+
     </>
   )
 }

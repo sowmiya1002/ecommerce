@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Navbar from './Navbar'
+import Footer from './Footer'
 export default function Contact() {
   return (
     <>
-
-      <div id='navbar'>
+    <Navbar/>
+      {/* <div id='navbar'>
          <img src='https://clayandglaze.in/cdn/shop/files/clayandglaze2025-min.png?crop=center&height=169&v=1748971139&width=527' alt="" />
          <nav>
          <Link className='menu' to="/">Home</Link>
@@ -18,9 +20,13 @@ export default function Contact() {
           <i class="fa-solid fa-cart-shopping"></i>
           <i class="fa-solid fa-user"></i>   
          </nav>
-         </div>
+         </div> */}
+         
       <h5>Contact to whatsapp</h5>
-      
+
+
+      <h4>9770067-99</h4>
+      <Footer/>
     </>
   )
 }

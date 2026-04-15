@@ -1,9 +1,12 @@
 import React from 'react'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
+import Navbar from './Navbar'
 export default function About() {
   return (<>
-  <div id='navbar'>
+
+
+  {/* <div id='navbar'>
      <img src='https://clayandglaze.in/cdn/shop/files/clayandglaze2025-min.png?crop=center&height=169&v=1748971139&width=527' alt="" />
      <nav>
      <Link className='menu' to="/">Home</Link>
@@ -17,7 +20,10 @@ export default function About() {
       <i class="fa-solid fa-cart-shopping"></i>
       <i class="fa-solid fa-user"></i>   
      </nav>
-     </div>
+     </div> */}
+
+<Navbar/>
+
     <div className='about'>
   
   <p>We create handmade clay products that blend tradition, art, and everyday usability.
