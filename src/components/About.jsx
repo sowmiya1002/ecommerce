@@ -15,7 +15,7 @@ Each piece is crafted with care, using natural materials and eco-friendly proces
 Our collection includes pottery, home decor items, planters, kitchenware, and custom designs—made to bring warmth and authenticity to your space.</p>
 <button>Buy now</button>
     </div>
-    <Footer/>
+
     </>
   )
 }
