@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Products from './Products'
 import Navbar from './Navbar'
 import About from './About'
-export default function Home() {
+export default function Home({ addToCart })  {
   return (
     <>
   
@@ -15,8 +15,7 @@ export default function Home() {
       
     </div>
 
-
-      <Products showNavbar={false} />
+<Products addToCart={addToCart} />
       <About/>
     </>
   )

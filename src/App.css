@@ -169,7 +169,7 @@ h1:hover{
 .card8{
   grid-area: card8;
 }
-#card{
+.card{
 
   box-shadow: 2px 3px 4px;
   padding: 10px 10px;
@@ -178,7 +178,7 @@ h1:hover{
   
 }
 
-#card button{
+button{
   color: white;
   background-color:  rgb(103, 39, 8);
   font-size: small;
@@ -187,7 +187,7 @@ h1:hover{
   height: 30px;
   
 }
-#card button:hover{
+ button:hover{
   color: rgb(103, 39, 8);
   background-color: transparent;
   font-size: small;
@@ -298,4 +298,50 @@ padding-left: 10px;
   margin-bottom: 30px;
     font-size: 20px;
 
+}
+#cart-products{
+    display: grid;
+  grid-template-columns: repeat(4,170px);
+  grid-template-rows: repeat(2,150);
+  grid-template-areas: 'card1 card2 card3 card4'
+                        'card5 card6 card7 card8';
+ justify-content: center;
+ margin-top: 20px;
+ margin-bottom: 40px;
+ gap: 50px;
+
+ 
+}
+.cart-card{
+  
+    box-shadow: 2px 3px 4px;
+
+  color: rgb(103, 39, 8);
+  border-color: solid rgb(103, 39, 8);
+  height: 300px;
+}
+.cart-card img{
+   width: 150px;
+  height: 160px;
+  border-radius: 20px;
+  position: fill;
+  padding: 10px;
+
+}
+.cart-card h3 {
+  padding: 10px;
+  width: 150px;
+}
+.cart-card p {
+  padding: 10px;
+}
+#cart-products h1{
+  text-align: center;
+  margin-top: 20px;
+  
+color: rgb(103, 39, 8);
+}
+#cart-products h1:hover{
+  text-decoration: underline;
+  
 }
